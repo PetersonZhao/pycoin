@@ -5,7 +5,7 @@ from setuptools import setup
 from pycoin.version import version
 
 setup(
-    name="pycoin",
+    name="pycoin-ceres",
     version=version,
     packages=[
         "pycoin",
@@ -46,8 +46,8 @@ setup(
                 'coinc = pycoin.cmds.coinc:main',
             ]
         },
-    author_email="him@richardkiss.com",
-    url="https://github.com/richardkiss/pycoin",
+    author_email="zhao6217@gmail.com",
+    url="https://github.com/PetersonZhao/pycoin",
     license="http://opensource.org/licenses/MIT",
     description="Utilities for Bitcoin and altcoin addresses and transaction manipulation.",
     classifiers=[
